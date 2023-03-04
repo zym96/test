@@ -1,0 +1,23 @@
+{
+  "name": "modualapiproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ModuleRun": "node moduleRunIndex.js",
+    "test": "yarn cypress run --reporter junit --reporter-options 'mochaFile=junit-results/my-test-output.xml'",
+    "cy:verify": "yarn cypress verify"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "commander": "^4.0.1",
+    "console.table": "^0.10.0",
+    "cypress": "^3.7.0",
+    "globby": "^10.0.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^2.1.0",
+    "mochawesome-report-generator": "^4.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "targetEnv": "prod",
+    "baseUrl": "http://www.helloqa.com",
+    "env": {
+        "staging": {
+            "baseUrl":"http://www.staging.helloqa.com",
+            "username": "stagingUser",
+            "password": "stagingPwd"
+        },
+        "prod": {
+            "baseUrl":"http://www.helloqa.com",
+            "username": "User",
+            "password": "Pwd"
+        }
+    }
+}

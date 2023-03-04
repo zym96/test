@@ -1,1 +1,2 @@
-# test
+# cypressCIDemo
+Showcase of Cypress
