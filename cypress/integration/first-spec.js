@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 describe('第一个用例', () => {
     it('测试 Module API', () => {
       cy.visit('/')
